@@ -1,6 +1,7 @@
 /*
- * Fedora Media Writer
+ * Everything Media Writer
  * Copyright (C) 2021-2022 Evžen Gasta <evzen.ml@seznam.cz>
+ * Copyright (C) 2026 Anakin Brownridge <anakinbrownridge715@outlook.com>
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -37,7 +38,7 @@ ModalDialog {
             spacing: units.gridUnit
 
             Heading {
-                text: qsTr("About Fedora Media Writer")
+                text: qsTr("About Everything Media Writer")
                 level: 3
                 wrapMode: Text.WrapAtWordBoundaryOrAnywhere
                 width: mainColumn.width - units.gridUnit * 2
@@ -53,13 +54,13 @@ ModalDialog {
                 width: mainColumn.width - units.gridUnit * 2
                 wrapMode: Text.WrapAtWordBoundaryOrAnywhere
                 visible: releases.beingUpdated
-                text: qsTr("Fedora Media Writer is now checking for new releases")
+                text: qsTr("Everything Media Writer is now checking for new releases")
             }
 
             QQC2.Label {
                 width: mainColumn.width - units.gridUnit * 2
                 wrapMode: Text.WrapAtWordBoundaryOrAnywhere
-                text: qsTr("Please report bugs or your suggestions on %1").arg("<a href=\"https://github.com/FedoraQt/MediaWriter/issues\"><font color=\"%1\">https://github.com/FedoraQt/MediaWriter/</font></a>").arg(palette.link)
+                text: qsTr("Please report bugs or your suggestions on %1").arg("<a href=\"https://github.com/ABrownridge2/EverythingMediaWriter/issues\"><font color=\"%1\">https://github.com/FedoraQt/MediaWriter/</font></a>").arg(palette.link)
                 textFormat: Text.RichText
                 onLinkActivated: Qt.openUrlExternally(link)
 
