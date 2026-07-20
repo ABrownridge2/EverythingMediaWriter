@@ -20,7 +20,7 @@ body:
     attributes:
       label: Operating system
       description: "Which operating system are you on? Please provide the version as well. If you are on a Mac, please specify Apple silicon or Intel, or if on Windows, tell us what **H2 release you are on."
-      placeholder: "macOS Tahoe 26.5 (Arm), Windows 11, Ubuntu 26.04"
+      placeholder: "macOS Tahoe 26.5 (ARM), Windows 11, Ubuntu 26.04"
     validations:
       required: true
 
