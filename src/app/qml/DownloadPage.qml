@@ -122,7 +122,7 @@ Page {
         QQC2.Label {
             id: messageInsertDrive
             visible: currentStatus === Units.DownloadStatus.Ready && !availableDrives
-            text: qsTr("Please insert an USB drive.")
+            text: qsTr("Please insert an USB drive. SD card support is on the roadmap.")
             width: infoColumn.width
             wrapMode: QQC2.Label.Wrap
         }
@@ -147,7 +147,7 @@ Page {
         QQC2.Label {
             id: messageArmBoard
             visible: false //boardCombo.otherSelected
-            text: qsTr("Your board or device is not supported by Fedora Media Writer yet. Please check <a href=%1>this page</a> for more information about its compatibility with Fedora and how to create bootable media for it.").arg("https://fedoraproject.org/wiki/Architectures/ARM")
+            text: qsTr("Your board or device is not supported by Everything Media Writer yet. Please check <a href=%1>this page</a> for more information about its compatibility with Fedora and how to create bootable media for it.").arg("https://fedoraproject.org/wiki/Architectures/ARM")
             width: infoColumn.width
             wrapMode: QQC2.Label.Wrap
         }
